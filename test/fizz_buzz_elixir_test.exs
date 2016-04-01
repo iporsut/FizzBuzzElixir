@@ -10,4 +10,8 @@ defmodule FizzBuzzElixirTest do
     assert FizzBuzzElixir.say(2) == "2"
   end
 
+  test "FizzBuzzElixir.say 3 should eqaul Fizz" do
+    assert FizzBuzzElixir.say(3) == "Fizz"
+  end
+
 end
